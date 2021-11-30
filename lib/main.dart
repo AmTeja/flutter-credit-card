@@ -1,4 +1,4 @@
-import './credit_cards_page.dart';
+import 'package:credit_card_project/views/onboarding_slider.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(fontFamily: 'Lato'),
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: SafeArea(child: CreditCardsPage()),
+        body: OnBoardingSlider(),
       ),
     );
   }
